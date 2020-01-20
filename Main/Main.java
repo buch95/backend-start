@@ -14,9 +14,12 @@ public class Main {
 			System.out.println("Please input your 5 digit number:");
 			int numr;
 			numr = sc.nextInt();
-			while (numr > 0) {
-				System.out.println( numr % 10);
-				numr = numr / 10;
+			String number = String.valueOf(numr);
+			for (int i = 0; i< number.length(); i++) {
+				int outputNum = Character.digit(number.charAt(i), 10);
+				// radix is number alphabet radix 2 is binary, radix 10 is 0 1 2 3 ... 9  
+				// Character.digit(what data to convert, radix)
+				System.out.println(outputNum);
 			}
 		}else if(hWNum == 2) {
 			System.out.println("Please input side a length");
