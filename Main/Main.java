@@ -41,7 +41,7 @@ public class Main {
 			double c;
 			c = 2*Math.PI*r;
 			
-			System.out.println("Circumference is " + String.format("%.2f", s) );
+			System.out.println("Circumference is " + String.format("%.2f", c) );
 		};	
 	}
 
