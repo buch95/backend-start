@@ -19,13 +19,13 @@ public class Main {
 				numr = numr / 10;
 			}
 		}else if(hWNum == 2) {
-			System.out.println("Please input side a lenght");
+			System.out.println("Please input side a length");
 			int a;
 			a = sc.nextInt();
-			System.out.println("Please input side b lenght");
+			System.out.println("Please input side b length");
 			int b;
 			b = sc.nextInt();
-			System.out.println("Please input side c lenght");
+			System.out.println("Please input side c length");
 			int c;
 			c = sc.nextInt();
 			
@@ -40,8 +40,6 @@ public class Main {
 			
 			double s;
 			s = 2*Math.PI*r;
-			
-			
 			
 			System.out.println("Your answer is " + String.format("%.2f", s) );
 		};	
