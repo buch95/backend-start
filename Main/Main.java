@@ -38,10 +38,10 @@ public class Main {
 			int r;
 			r = sc.nextInt();
 			
-			double s;
-			s = 2*Math.PI*r;
+			double c;
+			c = 2*Math.PI*r;
 			
-			System.out.println("Your answer is " + String.format("%.2f", s) );
+			System.out.println("Circumference is " + String.format("%.2f", s) );
 		};	
 	}
 
