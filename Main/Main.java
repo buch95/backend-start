@@ -12,8 +12,7 @@ public class Main {
 		hWNum = sc.nextInt();
 		if(hWNum == 1) {
 			System.out.println("Please input your 5 digit number:");
-			int numr;
-			numr = sc.nextInt();
+			int numr = sc.nextInt();
 			String number = String.valueOf(numr);
 			for (int i = 0; i< number.length(); i++) {
 				int outputNum = Character.digit(number.charAt(i), 10);
@@ -23,14 +22,11 @@ public class Main {
 			}
 		}else if(hWNum == 2) {
 			System.out.println("Please input side a length");
-			int a;
-			a = sc.nextInt();
+			int a = sc.nextInt();
 			System.out.println("Please input side b length");
-			int b;
-			b = sc.nextInt();
+			int b = sc.nextInt();
 			System.out.println("Please input side c length");
-			int c;
-			c = sc.nextInt();
+			int c = sc.nextInt();
 			
 			double p = (a+b+c)/2;
 			double s  = Math.sqrt(p*(p-a)*(p-b)*(p-c));
