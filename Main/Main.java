@@ -28,17 +28,14 @@ public class Main {
 			System.out.println("Please input side c length");
 			int c = sc.nextInt();
 			
-			double p = (a+b+c)/2;
+			double p = (a+b+c)/2;	
 			double s  = Math.sqrt(p*(p-a)*(p-b)*(p-c));
 			System.out.println("Square area of your triangle " + s);
 			
 		}else {
 			System.out.println("Please input radius");
-			int r;
-			r = sc.nextInt();
-			
-			double c;
-			c = 2*Math.PI*r;
+			int r = sc.nextInt();
+			double c = 2*Math.PI*r;
 			
 			System.out.println("Circumference is " + String.format("%.2f", c) );
 		};	
