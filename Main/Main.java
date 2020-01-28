@@ -48,11 +48,11 @@ public class Main {
 			int height = sc.nextInt();
 			String str = "*";
 			for (int i = 1; i <= height; i++) {
-				for (int j = 1; j < width; j++) {
+				for (int j = 0; j < width; j++) {
 					if (i == 1 || i == height) {
 						System.out.print(str);
 					} else {
-						if (j == 1 || j == width-1) {
+						if (j == 0 || j == width-1) {
 							System.out.print(str);
 						} else {
 							System.out.print(" ");
